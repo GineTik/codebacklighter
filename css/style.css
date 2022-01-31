@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(code/code.css);
+@import url(console/console.css);
+
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.page {
+    background-color: rgb(6, 6, 19);
+    display: flex;
+    flex-direction: column;
+}
+
+.page__code {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.page__console {
+    width: 100%;
+    height: auto;
+}
